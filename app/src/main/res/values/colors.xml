@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#795548</color>
+    <color name="primary_dark">#5D4037</color>
+
+    <color name="primary_light">#D7CCC8</color>
+    <color name="accent">#388e3c</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#757575</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="divider">#BDBDBD</color>
+
+    <color name="background">#5D4037</color>
+    <color name="navigation_bar">#5D4037</color>
+
+    <item name="blue" type="color">#FF33B5E5</item>
+    <item name="purple" type="color">#FFAA66CC</item>
+    <item name="green" type="color">#FF99CC00</item>
+    <item name="orange" type="color">#FFFFBB33</item>
+    <item name="red" type="color">#FFFF4444</item>
+    <item name="darkblue" type="color">#FF0099CC</item>
+    <item name="darkpurple" type="color">#FF9933CC</item>
+    <item name="darkgreen" type="color">#FF669900</item>
+    <item name="darkorange" type="color">#FFFF8800</item>
+    <item name="darkred" type="color">#FFCC0000</item>
+
+    <color name="black_overlay">#388e3c</color>
+
+    <color name="google_blue">#3366CC</color>
+    <color name="google_red">#DC3912</color>
+    <color name="google_orange">#FF9900</color>
+
+    <!--<item name="google">-->
+        <!--<item>#3366CC</item>-->
+        <!--<item>#DC3912</item>-->
+        <!--<item>#FF9900</item>-->
+        <!--<item>#109618</item>-->
+        <!--<item>#990099</item>-->
+        <!--<item>#3B3EAC</item>-->
+        <!--<item>#0099C6</item>-->
+        <!--<item>#DD4477</item>-->
+        <!--<item>#66AA00</item>-->
+        <!--<item>#B82E2E</item>-->
+        <!--<item>#316395</item>-->
+        <!--<item>#994499</item>-->
+        <!--<item>#22AA99</item>-->
+        <!--<item>#AAAA11</item>-->
+        <!--<item>#6633CC</item>-->
+        <!--<item>#E67300</item>-->
+        <!--<item>#8B0707</item>-->
+        <!--<item>#329262</item>-->
+        <!--<item>#5574A6</item>-->
+        <!--<item>#3B3EAC</item>-->
+    <!--</item>-->
+</resources>

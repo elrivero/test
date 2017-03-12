@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="16dp"
+        android:layout_centerInParent="false">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/micampo"/>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/tvApp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/accent"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/tvAppVersion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary"
+                android:textSize="12sp"
+                android:layout_marginLeft="5dp"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvWellcome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/primary"
+            android:textSize="24sp"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/tvUserName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/secondary_text"
+            android:textSize="18sp"
+            android:gravity="center" />
+
+        <LinearLayout
+            android:id="@+id/llForm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="invisible">
+
+            <!--<com.weiwangcn.betterspinner.library.BetterSpinner-->
+            <!--android:id="@+id/spinner_cliente"-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="wrap_content" />-->
+
+            <!--<TextView-->
+            <!--android:id="@+id/tvSpinnerCliente"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="@string/main_cliente"-->
+            <!--android:layout_marginTop="16dp"/>-->
+
+            <Spinner
+                android:id="@+id/spinner_cliente"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:spinnerMode="dropdown"
+                android:dropDownWidth="fill_parent"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <!--<fr.ganfra.materialspinner.MaterialSpinner-->
+                <!--android:id="@+id/spinner_cliente"-->
+                <!--android:layout_width="fill_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--app:ms_multiline="false"-->
+                <!--app:ms_hint="Seleccione Cliente"-->
+                <!--app:ms_enableFloatingLabel="true"-->
+                <!--app:ms_enableErrorLabel="true"-->
+                <!--app:ms_floatingLabelText="Cliente:"-->
+                <!--app:ms_baseColor="@color/primary_light"-->
+                <!--app:ms_highlightColor="@color/accent"-->
+                <!--app:ms_errorColor="@color/darkred"-->
+                <!--app:ms_typeface="typeface.ttf"-->
+                <!--app:ms_thickness="2dp"-->
+                <!--app:ms_hintColor="@color/accent"-->
+                <!--app:ms_arrowColor="@color/accent"-->
+                <!--app:ms_arrowSize="16dp"-->
+                <!--app:ms_alignLabels="true"-->
+                <!--app:ms_floatingLabelColor="@color/accent" />-->
+
+            <!--<TextView-->
+            <!--android:id="@+id/tvSpinnerPredio"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="@string/main_predio"-->
+            <!--android:layout_marginTop="16dp"/>-->
+
+            <Spinner
+                android:id="@+id/spinner_predio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:spinnerMode="dropdown"
+                android:dropDownWidth="fill_parent"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <!--<fr.ganfra.materialspinner.MaterialSpinner-->
+                <!--android:id="@+id/spinner_predio"-->
+                <!--android:layout_width="fill_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--app:ms_multiline="false"-->
+                <!--app:ms_hint="Seleccione Fundo"-->
+                <!--app:ms_enableFloatingLabel="true"-->
+                <!--app:ms_enableErrorLabel="false"-->
+                <!--app:ms_floatingLabelText="Fundo"-->
+                <!--app:ms_baseColor="@color/primary_light"-->
+                <!--app:ms_highlightColor="@color/accent"-->
+                <!--app:ms_errorColor="@color/darkred"-->
+                <!--app:ms_typeface="typeface.ttf"-->
+                <!--app:ms_thickness="2dp"-->
+                <!--app:ms_hintColor="@color/accent"-->
+                <!--app:ms_arrowColor="@color/accent"-->
+                <!--app:ms_arrowSize="16dp"-->
+                <!--app:ms_alignLabels="false"-->
+                <!--app:ms_floatingLabelColor="@color/accent" />-->
+
+            <Button
+                android:id="@+id/fabNext"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/main_next"
+                android:drawableRight="@drawable/ic_keyboard_arrow_right_black_24dp"
+                android:drawableTint="@android:color/white"
+                android:padding="20dp"
+                android:layout_marginTop="16dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/loading"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_centerInParent="true"
+        android:visibility="gone" />
+</RelativeLayout>

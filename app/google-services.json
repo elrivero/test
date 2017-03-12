@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "872702624421",
+    "firebase_url": "https://micampo-70e8c.firebaseio.com",
+    "project_id": "micampo-70e8c",
+    "storage_bucket": "micampo-70e8c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:872702624421:android:1a4ac9a3cbc015df",
+        "android_client_info": {
+          "package_name": "cl.a2r.micampo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "872702624421-b6usa1a3i9kueafo9vlqi95n9hu63rat.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "cl.a2r.micampo",
+            "certificate_hash": "AB320C63403B5C12033B4AC96086A2A9C776DA66"
+          }
+        },
+        {
+          "client_id": "872702624421-2p5bmaf9eo36383a4h7g0d8olmch5254.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCY6nxNOPfnYVDJpJtzKGUylD_aFJH_NZg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "872702624421-2p5bmaf9eo36383a4h7g0d8olmch5254.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

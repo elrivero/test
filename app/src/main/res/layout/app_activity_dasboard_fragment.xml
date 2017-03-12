@@ -1,0 +1,73 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".app.DashboardFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/micampo"
+            android:layout_gravity="center"/>
+
+        <!--<TextView-->
+            <!--android:id="@+id/tvPredioCod"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:gravity="center"-->
+            <!--android:background="@drawable/rounded_corner1"-->
+            <!--android:text="Lm"-->
+            <!--android:textColor="@android:color/white"-->
+            <!--android:paddingTop="10dp"-->
+            <!--android:paddingBottom="10dp"-->
+            <!--android:paddingRight="15dp"-->
+            <!--android:paddingLeft="15dp"-->
+            <!--android:textSize="32dp"/>-->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="DASHBOARD PRINCIPAL"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/primary_dark" />
+
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/cvPostparto"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            card_view:cardCornerRadius="4dp"
+            android:layout_marginTop="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/darkorange"
+                android:padding="10dp"
+                android:text="Nueva APP Revisión Postparto.\nLa puede encontrar en el menú lateral."
+                android:textColor="@android:color/white"
+                android:gravity="center"/>
+        </android.support.v7.widget.CardView>
+
+        <!--<Button-->
+            <!--android:id="@+id/btnPostparto"-->
+            <!--style="@style/Widget.AppCompat.Button.Colored"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Entrar"-->
+            <!--android:drawableRight="@drawable/ic_keyboard_arrow_right_black_24dp"-->
+            <!--android:drawableTint="@android:color/white"-->
+            <!--android:padding="20dp" />-->
+
+    </LinearLayout>
+
+</FrameLayout>

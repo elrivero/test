@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="?attr/actionBarSize" >
+
+    <!-- CONECTADOS -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_weight="0.2">
+
+        <TextView
+            android:id="@+id/conectados"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/baston_conectados"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/divisor1"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/conectados"
+            android:background="@android:color/holo_green_dark"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#ababab"
+            android:textSize="15sp" />
+
+        <ListView
+            android:id="@+id/lvConectados"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/divisor1" >
+        </ListView>
+    </RelativeLayout>
+
+    <!-- VINCULADOS -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_weight="0.3" >
+
+        <TextView
+            android:id="@+id/vinculados"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/baston_vinculados"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/divisor2"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/vinculados"
+            android:background="@android:color/holo_orange_light"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#ababab"
+            android:textSize="15sp" />
+
+        <ListView
+            android:id="@+id/lvVinculados"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/divisor2" >
+        </ListView>
+
+    </RelativeLayout>
+
+    <!-- ENCONTRADOS -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_weight="0.3" >
+
+        <TextView
+            android:id="@+id/encontrados"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/baston_encontrados"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/divisor3"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/encontrados"
+            android:background="@android:color/holo_red_light"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#ababab"
+            android:textSize="15sp" />
+
+        <ListView
+            android:id="@+id/lvEncontrados"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/divisor3" >
+        </ListView>
+
+    </RelativeLayout>
+
+    <!-- BUSCAR -->
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/btnBuscar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|left"
+        android:layout_margin="@dimen/fab_margin"
+        android:tint="@color/icons"
+        android:src="@drawable/ic_search_24"/>
+</LinearLayout>
